@@ -38,7 +38,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <h1>Welcome to CI/CD with Github Actions! Hot change</h1>
+        <h1>Welcome to CI/CD with Github Actions! Hot change - Day2 </h1>
         <div className={styles.center}>
           <Image
             className={styles.logo}

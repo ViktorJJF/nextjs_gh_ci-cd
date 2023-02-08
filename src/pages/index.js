@@ -1,9 +1,9 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from '@/styles/Home.module.css'
+import Head from "next/head";
+import Image from "next/image";
+import { Inter } from "@next/font/google";
+import styles from "@/styles/Home.module.css";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -26,7 +26,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              By{' '}
+              By{" "}
               <Image
                 src="/vercel.svg"
                 alt="Vercel Logo"
@@ -38,7 +38,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-
+        <h1>Welcome to CI/CD with Github Actions!</h1>
         <div className={styles.center}>
           <Image
             className={styles.logo}
@@ -69,6 +69,7 @@ export default function Home() {
             <h2 className={inter.className}>
               Docs <span>-&gt;</span>
             </h2>
+            <h3>Nice! Viktor</h3>
             <p className={inter.className}>
               Find in-depth information about Next.js features and&nbsp;API.
             </p>
@@ -119,5 +120,5 @@ export default function Home() {
         </div>
       </main>
     </>
-  )
+  );
 }
